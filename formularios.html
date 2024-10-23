@@ -1,0 +1,23 @@
+<!--FORMS ON HTML5 
+    - Capturar dados de entrada
+    - Input -> Entrada
+    - Action: define para qual URL será enviado os dados,vazio para a mesma URL
+    - Method: GET e POST.-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>MEU FORMULÁRIO</h1>
+    <label> RUA:
+        <input type="text" name="rua" autocomplete="street-address"/>
+    </label>
+    <label> NUMERO:
+        <input type="number" name="numero" autocomplete=""/>
+    </label>
+    <label> EMAIL:
+        <input type="email" name="email" autocomplete=""/>
+    </label>
+    <label>FOTO
+        <input type="file" name="arquivo"/>
+    </label>
+    <button type="submit">ENVIAR DADOS</button>
+    <button type="reset">RESET</button>
+</form>
